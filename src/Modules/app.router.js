@@ -1,4 +1,3 @@
-import connecteDB from '../../DB/connection.js'
 import AuthRouter from './Auth/Auth.router.js'
 import MessageRouter from './Message/Message.router.js'
 import UserRouter from './User/User.router.js'

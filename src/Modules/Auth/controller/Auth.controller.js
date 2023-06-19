@@ -1,10 +1,8 @@
 import { compare } from "bcrypt"
 import { hash } from "../../../Services/hashAndCompare.js"
 import { generateToken, verifyToken } from "../../../Services/generateAndVerifyToken.js"
-import { signupSchema,loginSchema } from "../Auth.validation.js"
 import { sendEmail } from "../../../Services/sendEmail.js"
-import { verify } from "jsonwebtoken"
-import userModel from "../../../../DB/model/user.model.js"
+import userModel from "../../../../DB/model/User.model.js"
 
 export const signup = async (req,res)=>{
 
